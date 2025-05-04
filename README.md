@@ -16,17 +16,17 @@ However, the **sales team has the capacity to make 20,000 calls** within the cam
 ![image](https://github.com/user-attachments/assets/c13e29b2-d9c7-47b1-8e74-0af086ffb404)
 * **There is a significant relationship between having health insrance and the likelihood of purchasing vehicle insrance , but not as we think: customers with health insurance are more likely to buy vehicle insurance. It seems that when customers have previously purchased health insurance, they are less inclined to buy vehicle insurance. The probability that a person who previously purchased health insurance will buy vehicle insurance is only 0.09%**
 
-P(Vehicle=Yes | Health=Yes): 0.0009047804475799987
-  
-P(Vehicle=Yes | Health=No): 0.22545415800969582
+        P(Vehicle=Yes | Health=Yes): 0.0009047804475799987
 
-Chi-squared: 44357.96472219977
+        P(Vehicle=Yes | Health=No): 0.22545415800969582
 
-p-value: 0.0
+        Chi-squared: 44357.96472219977
 
-Degrees of Freedom: 1
+        p-value: 0.0
 
-Conclusion: Have a relationship between having health insurance and the likelihood of purchasing vehicle insurance.
+        Degrees of Freedom: 1
+
+        Conclusion: Have a relationship between having health insurance and the likelihood of purchasing vehicle insurance.
 * **97.9% of customers who are interested in purchasing vehicle insurance had previously experienced vehicle damage.**
   ![image](https://github.com/user-attachments/assets/1c1b624a-0806-4224-8c0e-97c2cdaf31d0)
 * **Although young customers account for the majority, but they aren't the group customer with the highest likelihood of wanting vehicle insurance. People who want insrance are in between 40 and 50 years old.**
