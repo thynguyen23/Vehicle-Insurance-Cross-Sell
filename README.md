@@ -49,11 +49,15 @@ The chosen model was Logistic Regression and it was tuned to improve their param
 | Logistic Regression GS| 0.2411 ± 0.0003     | 0.9834 ± 0.0013      | 0.3872 ± 0.0005     |
 
 It's possible to determinize the capacity of the model to generalize using unseen data. In other words, capcity of the model to classify new data as shown.
+
 | Model                  | Precision@K | Recall@K | F1@K   |
 |------------------------|-------------|----------|--------|
 | Logistic Regression GS | 0.2804      | 0.9151   | 0.4293 |
+
 These graphs below show the accumulative gain and lift curve.
+
 ![image](https://github.com/user-attachments/assets/022ab2b3-fc76-4fe6-bb50-4ed12a71aecc)
+
 ![image](https://github.com/user-attachments/assets/3be5d450-54eb-4701-90ca-110bb7d6b44e)
 
 ## 4.0 Business Results
