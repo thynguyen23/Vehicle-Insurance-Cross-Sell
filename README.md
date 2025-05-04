@@ -2,13 +2,13 @@
 This project aims to order a potential client list by propensity score.
 ## 1.0 Business Problem
 
-Insurance All is a company that provides vehicle insurance to its customers, and the product team is analyzing the possibility of offering policyholders a new product: **health insurance**.
+Insurance All is a company that provides healthy insurance to its customers, and the product team is analyzing the possibility of offering policyholders a new product: **Vehicle insurance**.
 
-As with vehicle insurance, customers of this new health insurance plan need to pay an amount annually to Insurance All to obtain an amount insured by the company, intended for the costs of an eventual accident or damage to the vehicle.
+As with health insurance, customers of this new Vehicle insurance plan need to pay an amount annually to Insurance All to obtain an amount insured by the company, intended for the costs of an eventual accident or damage to the vehicle.
 
-Insurance All conducted a survey of about **380,000 customers** about their interest in joining a new health insurance product last year. All customers expressed interest or not in purchasing health insurance, and these responses were saved in a database along with other customer attributes.
+Insurance All conducted a survey of about **380,000 customers** about their interest in joining a new vehicle insurance product last year. All customers expressed interest or not in purchasing vehicle insurance, and these responses were saved in a database along with other customer attributes.
 
-The product team selected **127,000 new customers** who did not respond to the survey to participate in a campaign, in which they will receive the offer of the new health insurance product. The offer will be made by the sales team through telephone calls.
+The product team selected **127,000 new customers** who did not respond to the survey to participate in a campaign, in which they will receive the offer of the new vehicle insurance product. The offer will be made by the sales team through telephone calls.
 
 However, the **sales team has the capacity to make 20,000 calls** within the campaign period.
 ## 2.0 Top Insights
