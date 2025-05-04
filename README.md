@@ -15,7 +15,8 @@ However, the **sales team has the capacity to make 20,000 calls** within the cam
 * **Early Aulthood and adolescent are about 26.1% of the cutomer who want the vehicle insurance. The midlife customers are more likely to get insurance, they are about 48.3%**
 ![image](https://github.com/user-attachments/assets/c13e29b2-d9c7-47b1-8e74-0af086ffb404)
 * **There is a significant relationship between having health insrance and the likelihood of purchasing vehicle insrance , but not as we think: customers with health insurance are more likely to buy vehicle insurance. It seems that when customers have previously purchased health insurance, they are less inclined to buy vehicle insurance. The probability that a person who previously purchased health insurance will buy vehicle insurance is only 0.09%**
-* P(Vehicle=Yes | Health=Yes): 0.0009047804475799987
+
+P(Vehicle=Yes | Health=Yes): 0.0009047804475799987
   
 P(Vehicle=Yes | Health=No): 0.22545415800969582
 
