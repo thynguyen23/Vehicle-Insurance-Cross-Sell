@@ -31,11 +31,54 @@ Conclusion: Have a relationship between having health insurance and the likeliho
   ![image](https://github.com/user-attachments/assets/1c1b624a-0806-4224-8c0e-97c2cdaf31d0)
 * **Although young customers account for the majority, but they aren't the group customer with the highest likelihood of wanting vehicle insurance. People who want insrance are in between 40 and 50 years old.**
 ![image](https://github.com/user-attachments/assets/f0fe0299-bda7-445a-8024-88547cf151b8)
-### 3.0 Machine Learning Applied
+## 3.0 Machine Learning Applied
 ### Model Performance Comparison
+Here's all cross validation results of the machine learning models with their default parameters. These metrics corresponds to a k = 50%, up to 50% of data. The cross validation method is important to show the capacity of the model to learn.
 
 | Model               | Precision@K        | Recall@K           | F1@K               |
 |---------------------|--------------------|---------------------|--------------------|
 | Dummy               | 0.1231 ± 0.0008     | 0.5021 ± 0.0034      | 0.1977 ± 0.0013     |
+| LightGBM            | 0.2419 ± 0.0003     | 0.9868 ± 0.0013      | 0.3885 ± 0.0005     |
 | Logistic Regression | 0.2421 ± 0.0003     | 0.9877 ± 0.0011      | 0.3889 ± 0.0004     |
 
+### 4.0 Machine Learning Performance
+The chosen model was Logistic Regression and it was tuned to improve their parameters and scores. Below there's a table with the capacity of the model to learn.
+
+| Model                 | Precision@K        | Recall@K           | F1@K               |
+|-----------------------|--------------------|---------------------|--------------------|
+| Logistic Regression GS| 0.2411 ± 0.0003     | 0.9834 ± 0.0013      | 0.3872 ± 0.0005     |
+
+It's possible to determinize the capacity of the model to generalize using unseen data. In other words, capcity of the model to classify new data as shown.
+| Model                  | Precision@K | Recall@K | F1@K   |
+|------------------------|-------------|----------|--------|
+| Logistic Regression GS | 0.2804      | 0.9151   | 0.4293 |
+These graphs below show the accumulative gain and lift curve.
+![image](https://github.com/user-attachments/assets/022ab2b3-fc76-4fe6-bb50-4ed12a71aecc)
+![image](https://github.com/user-attachments/assets/3be5d450-54eb-4701-90ca-110bb7d6b44e)
+
+## 4.0 Business Results
+
+### • What percentage of customers are interested in purchasing auto insurance? Will the sales team be able to reach them by making 20,000 calls?
+
+1. The database is based on **46,876 (12.3%)** of customers interested in health insurance and **334,232 (87.7%)** of customers not interested.
+
+2. The model results have shown that the model has the **precision of 24.11%**  
+   (24.14% for excellent performance or 24.06% for poor performance).  
+   So, using the model it's possible to contact **4,822** customers interested in health insurance from **20,000 calls**  
+   (4,828 for excellent performance or 4,812 for poor performance).  
+   However, the **recall is about 98.34% (+/- 0.0013)**.
+
+---
+
+### • If the sales team's capacity increases to 40,000 calls, what percentage of customers interested in purchasing auto insurance will the sales team be able to contact?
+
+Increasing to **40,000 calls**, the model may help the sales team contact **9,644** customers interested in health insurance  
+(9,660 for excellent performance or 9,620 for poor performance).
+
+---
+
+### • How many calls does the sales team need to make to contact 80% of customers interested in purchasing auto insurance?
+
+The model sorted **98.31% (46,084 customers)** of the customers interested in 50% of the database with **381,109 customers**.  
+Using the model, it's possible to contact **80%** of customers interested in health insurance with **155,064 calls**  
+(155,064 for both excellent and poor performance).
