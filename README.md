@@ -11,7 +11,7 @@ Insurance All conducted a survey of about **380,000 customers** about their inte
 The product team selected **127,000 new customers** who did not respond to the survey to participate in a campaign, in which they will receive the offer of the new health insurance product. The offer will be made by the sales team through telephone calls.
 
 However, the **sales team has the capacity to make 20,000 calls** within the campaign period.
-
+## 2.0 Top Insights
 * **Early Aulthood and adolescent are about 26.1% of the cutomer who want the vehicle insurance. The midlife customers are more likely to get insurance, they are about 48.3%**
 ![image](https://github.com/user-attachments/assets/c13e29b2-d9c7-47b1-8e74-0af086ffb404)
 * **There is a significant relationship between having health insrance and the likelihood of purchasing vehicle insrance , but not as we think: customers with health insurance are more likely to buy vehicle insurance. It seems that when customers have previously purchased health insurance, they are less inclined to buy vehicle insurance. The probability that a person who previously purchased health insurance will buy vehicle insurance is only 0.09%**
@@ -31,3 +31,11 @@ Conclusion: Have a relationship between having health insurance and the likeliho
   ![image](https://github.com/user-attachments/assets/1c1b624a-0806-4224-8c0e-97c2cdaf31d0)
 * **Although young customers account for the majority, but they aren't the group customer with the highest likelihood of wanting vehicle insurance. People who want insrance are in between 40 and 50 years old.**
 ![image](https://github.com/user-attachments/assets/f0fe0299-bda7-445a-8024-88547cf151b8)
+### 3.0 Machine Learning Applied
+### Model Performance Comparison
+
+| Model               | Precision@K        | Recall@K           | F1@K               |
+|---------------------|--------------------|---------------------|--------------------|
+| Dummy               | 0.1231 ± 0.0008     | 0.5021 ± 0.0034      | 0.1977 ± 0.0013     |
+| Logistic Regression | 0.2421 ± 0.0003     | 0.9877 ± 0.0011      | 0.3889 ± 0.0004     |
+
