@@ -86,3 +86,8 @@ Increasing to **40,000 calls**, the model may help the sales team contact **9,64
 The model sorted **98.31% (46,084 customers)** of the customers interested in 50% of the database with **381,109 customers**.  
 Using the model, it's possible to contact **80%** of customers interested in health insurance with **155,064 calls**  
 (155,064 for both excellent and poor performance).
+
+## 5.0 Conclusions
+The random model classified correctly just 12.31% (+/- 0.15%) of the interested customer. The final model has the ability to differentiate the classes and managed to correctly classify 24.1% (+/- 0.04%). The lift curve also shows that the model manages to have a gain 3 times greater than the random choice of customers.
+
+The model was able to organize that almost all interested customers (98.31% +/- 0.16%) stay on up to 50% of the sorted list. This makes it possible to save half of the expenses incurred for calls. So if each call costs VND 5,000 in 20,000.00 there is an expense of VND 100,000,000. Using the model it is possible to spend only VND 50,000,000
